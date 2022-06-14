@@ -11,7 +11,7 @@ Resources:
       KeyName: remote-vm
       # Change this, as applicable to you
       # You may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
-      ImageId: 'ami-00ddb0e5626798373' 
+      ImageId: 'ami-0c4f7023847b90238' 
       InstanceType: t3.micro
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
